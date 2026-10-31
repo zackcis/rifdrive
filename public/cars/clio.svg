@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e1d9d2"/><stop offset="1" stop-color="#eee8dc"/></linearGradient>
+  <linearGradient id="body" x1="0" y1="0" x2="0.15" y2="1"><stop stop-color="#ffffff" stop-opacity=".38"/><stop offset=".2" stop-color="#999a96"/><stop offset=".62" stop-color="#999a96"/><stop offset="1" stop-color="#26302f"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#94b2bb"/><stop offset=".55" stop-color="#263a43"/><stop offset="1" stop-color="#111c24"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="white" stop-opacity=".7"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+  <filter id="shadow" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="19"/></filter>
+ </defs>
+ <rect width="1000" height="700" fill="url(#bg)"/>
+ <circle cx="803" cy="86" r="300" fill="url(#light)"/>
+ <path d="M0 540 L155 466 L260 523 L455 414 L641 528 L834 444 L1000 512 L1000 700 L0 700Z" fill="#a3aa9f" opacity=".26"/>
+ <path d="M0 584 L133 552 L283 603 L459 520 L624 607 L798 535 L1000 578 L1000 700 L0 700Z" fill="#faf7ed" opacity=".21"/>
+ <path d="M0 568 L1000 568" stroke="#ffffff" opacity=".26" stroke-width="2"/>
+ <text x="57" y="74" fill="#363b36" opacity=".28" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="6">R / D — THE OPEN ROAD</text>
+ <ellipse cx="506" cy="485" rx="365" ry="34" fill="#121815" opacity=".32" filter="url(#shadow)"/>
+ <path d="M177 435 Q181 407 210 401 L290 388 Q329 343 379 326 L547 312 Q604 315 660 375 L759 387 Q800 388 817 416 L824 444 Q823 466 806 476 L193 476 Q165 476 171 452 Z" fill="url(#body)" stroke="#334039" stroke-width="3"/>
+ <path d="M318 385 Q356 339 391 336 L544 326 Q592 332 637 383 Z" fill="url(#glass)" stroke="#d6e0df" stroke-width="6"/>
+ <path d="M519 328 L531 384" stroke="#27312d" stroke-width="8"/>
+ <path d="M661 384 Q717 390 770 399" stroke="#d0d5d0" stroke-opacity=".75" stroke-width="4" fill="none"/>
+ <path d="M264 401 L288 394 M680 391 L706 394" stroke="#ffffff" opacity=".3" stroke-width="4"/>
+ <path d="M184 451 L808 451" fill="none" stroke="#273432" stroke-width="4"/>
+ <path d="M190 460 L245 462 M730 462 L797 459" stroke="#181f1d" stroke-width="8"/>
+ <path d="M790 413 Q809 415 811 432 L785 433Z" fill="#e3efdc" stroke="#c2d7bd" stroke-width="2"/>
+ <path d="M171 420 L194 417 L193 434 L168 438Z" fill="#f06b4b"/>
+ <path d="M590 402 L606 408" stroke="#e2e8e2" stroke-width="8" stroke-linecap="round"/>
+ <path d="M314 400 L332 404" stroke="#d5e1dc" stroke-width="8" stroke-linecap="round"/>
+ <g>
+  <circle cx="292" cy="461" r="59" fill="#1d2324"/>
+  <circle cx="292" cy="461" r="38" fill="#adb7b5" stroke="#596360" stroke-width="4"/>
+  <circle cx="292" cy="461" r="29" fill="#333c3c"/>
+  <g stroke="#ccd2cc" stroke-width="7"><path d="M292 436 V486 M267 461 H317 M275 444 L309 478 M309 444 L275 478"/></g>
+  <circle cx="292" cy="461" r="8" fill="#b1b9b3"/>
+  <circle cx="708" cy="461" r="59" fill="#1d2324"/>
+  <circle cx="708" cy="461" r="38" fill="#adb7b5" stroke="#596360" stroke-width="4"/>
+  <circle cx="708" cy="461" r="29" fill="#333c3c"/>
+  <g stroke="#ccd2cc" stroke-width="7"><path d="M708 436 V486 M683 461 H733 M691 444 L725 478 M725 444 L691 478"/></g>
+  <circle cx="708" cy="461" r="8" fill="#b1b9b3"/>
+ </g>
+ <path d="M376 335 Q466 311 570 322" fill="none" stroke="white" stroke-opacity=".3" stroke-width="4"/>
+ <text x="940" y="649" fill="#373d3a" opacity=".35" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="end" letter-spacing="3">35°14' N / AL HOCEIMA</text>
+ </svg>
